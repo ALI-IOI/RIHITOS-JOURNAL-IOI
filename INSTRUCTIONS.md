@@ -111,6 +111,13 @@ The page reloads after each save. To undo all of it, use **Backup → Reset cons
   **Review** column. This is what makes the learning stick.
 - **Parts.** Keep your inventory and shopping list here; search finds anything in both.
 - **Home.** Scroll or swipe to flip through the cards; click one to jump to that page.
+- **Reading a card.** Tap **?** on the home screen. Top left says what kind of page it is, top right shows a
+  live number from it, and the two moves show what the page does for you, each with a live count.
+- **Menu.** **Menu** (top right, on every page) groups all pages into *Start here, Plan, Do, Learn, Grow* and
+  *Settings*, with one line about each.
+- **Phones and tablets.** A lighter mode switches on by itself: no blur effects, a lower-resolution background
+  and a capped frame rate, so scrolling stays smooth. On very slow devices the background lowers its quality
+  further on its own. Nothing to set.
 - **Background.** One 5-minute animated flight loops behind the whole site. It follows the clock, so it carries on exactly where it was when you switch pages or reload. To change it on one device: **Console → Backup → Background animation** (loop everywhere, loop on home only, or plain).
 
 Your progress saves automatically in the browser you are using.

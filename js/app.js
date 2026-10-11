@@ -599,8 +599,8 @@ scene=(function(){
   addEventListener("resize",resize); resize(); api.recolor();
   cam.position.set(home*0,10,30); place(1); cam.position.copy(camPos); look.copy(drone.position); cam.lookAt(look); draw();
   { let last=performance.now(), running=!document.hidden;
-    const FI=LITE?1000/24:TOUCH?1000/30:0; let lastDraw=0;
-    const frame=now=>{ if(!running) return; if(FI&&now-lastDraw<FI-2){requestAnimationFrame(frame); return;} lastDraw=now; const dt=Math.min(.08,(now-last)/1000); last=now; if(reduce&&!loopMode){requestAnimationFrame(frame); return;} clock+=dt; props.forEach((b,i)=>b.rotation.y+=dt*(i%2?-38:38)); pts.rotation.y+=dt*.004; place(dt); draw(); requestAnimationFrame(frame); };
+    let FI=LITE?1000/24:TOUCH?1000/30:0; let lastDraw=0; const PR0=renderer.getPixelRatio(); let gE=0,gN=0,gL=0;
+    const frame=now=>{ if(!running) return; if(FI&&now-lastDraw<FI-2){requestAnimationFrame(frame); return;} lastDraw=now; const dt=Math.min(.08,(now-last)/1000); last=now; if(reduce&&!loopMode){requestAnimationFrame(frame); return;} clock+=dt; props.forEach((b,i)=>b.rotation.y+=dt*(i%2?-38:38)); pts.rotation.y+=dt*.004; const t0=performance.now(); place(dt); draw(); const c=performance.now()-t0; gE=gN?gE*.9+c*.1:c; if(++gN>40&&gE>(TOUCH?16:24)&&gL<3){gL++; gN=0; if(gL<3){renderer.setPixelRatio(PR0*(gL===1?.7:.5)); resize();} else FI=Math.max(FI,1000/15);} requestAnimationFrame(frame); };
     document.addEventListener("visibilitychange",()=>{running=!document.hidden; if(running){last=performance.now(); requestAnimationFrame(frame);}});
     requestAnimationFrame(frame);
   }

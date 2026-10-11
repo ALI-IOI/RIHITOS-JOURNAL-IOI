@@ -39,7 +39,7 @@ const PROFILE={
 
 const TEXT={
   brand:"IOI", brandSub:"Rihito's Journal IOI",
-  coords:"Day one · your city here",
+  coords:"Demo journal · IOI",
   kicker:"A field log of everything I build, from a first circuit to <span>autonomous robots</span>",
   homeLine:"Every build, gate and test run on the way from a blinking LED to robots that see, map and fly, logged in one place.",
   capLeft:"Self-taught · <b>Robotics</b>", capRight:"24 months · <b>~15 h/week</b>",
@@ -49,6 +49,11 @@ const TEXT={
   manifesto:"More than tutorials, more than parts, more than a certificate. A public record of robots that work, measured, logged and shared, one gate at a time.",
   applyEyebrow:"After the roadmap · month 20 onward",
   applyLede:"Three ways to turn the portfolio into the next step. Pick one as the main target and keep a second warm. Deadlines differ by country and company, so check each official page when its phase starts.",
+  demoNote:"<b>This is a demo journal for IOI</b>, a made-up learner. Press <i>Start your journey</i> to answer 7 short questions and turn it into yours.",
+  missionIntro:"<b>Mission</b> · the whole roadmap on one page: where you are now, the phases ahead, countdowns, hard deadlines and what to do next.",
+  credLede:"Only certificates earned through a proctored exam or a graded project. Committees and employers weigh projects, code and measured results far above certificates, so this list is short on purpose.",
+  skillsLede:"Mechanics, power, PCB design, video, design and product sense. You don't study these up front: each one is tied to the project where you'll first need it, and you learn just enough to finish that project. They're also in the tracker as K items.",
+  commLede:"Engineers and makers answer questions every day in these places. Join the few that match your current phase, read before you ask, and answer what you can: a visible history of helpful answers is part of your portfolio too.",
   footer:"Rihito's Journal IOI<br>First circuit → autonomous robot · 24 months",
   communityNote:"<b>Want people in person?</b> Look for a university robotics club, an IEEE Robotics and Automation Society student chapter, a local makerspace or a ROS meetup. Student competitions such as FIRST, VEX, RoboCup and F1TENTH welcome volunteers and mentors too.",
   credNote:"<b>Left out on purpose:</b> certificates of completion that only prove you watched videos. Committees and hiring managers weigh projects, code and measured results first. Providers change programmes, so re-check each page before you pay."

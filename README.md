@@ -15,6 +15,8 @@ or in one data file.
 
 - **Start your journey** – seven short questions (you, timeline, level, focus and goal, time, learning, tools). The site then rebuilds itself around your answers: phases, every project date, scholarship and exam deadlines with official sources, countdowns, daily plan and parts list.
 - **Home** – a greeting and a deck of cards, one per section; scroll or swipe to browse. A 5-minute animated flight loops behind every page.
+  Tap **?** on the home screen to learn how to read a card. The **Menu** groups every page (Start here, Plan, Do, Learn, Grow, Settings) with a one-line description.
+- **Phones and tablets** – a lighter mode switches on by itself: no blur effects, a lower-resolution background and a capped frame rate, so scrolling stays smooth. On very slow devices the background lowers its quality further on its own.
 - **Inbox** – optional: starred and important Gmail, GitHub notifications, Reddit messages and saved posts, links you pin yourself, and quick links to LinkedIn, X, Discord and more. Off until you connect each one; tokens stay on your device.
 - **Mission** – phases, gates, countdowns, deadlines and a build log.
 - **Tracker / Board** – every roadmap item with status, spaced-review state and notes.

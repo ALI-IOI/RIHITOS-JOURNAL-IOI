@@ -30,7 +30,7 @@ const PROFILE={
   key:KEY,
   name:"IOI", first:"IOI",
   title:"Rihito's Journal IOI",
-  titleWords:["RIHITO’S","JOURNAL IOI"],
+  titleWords:["RIHITO’S","JOURNAL","IOI"],
   code:"RJ24",
   currency:"$",
   start:START, end:MO(24),

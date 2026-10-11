@@ -323,3 +323,4 @@ html.touch .hm-rail{will-change:transform}
 html.touch .bw-sheen{display:none!important}
 .hm .hm-hud{z-index:8}.hm-legend{pointer-events:auto;z-index:9}
 .hm-legend-box{position:fixed!important;left:16px!important;right:16px!important;bottom:70px!important;width:auto!important;max-width:420px;margin:0 auto}
+html.touch .loader.done{animation-duration:.3s}html.touch .loader{animation-delay:1.5s}

@@ -455,7 +455,7 @@ window.armReveals=armReveals;
 (function(){const L=document.getElementById("loader"), P=document.getElementById("loader-pct"); if(!L) return;
   if(REDUCE){L.remove(); return;}
   let p=0; const mark=L.querySelector(".mark");
-  const tick=setInterval(()=>{p=Math.min(100,p+Math.ceil(Math.random()*9)); P.textContent=p+"%"; mark.style.setProperty("--p",p+"%"); if(p>=100){clearInterval(tick); setTimeout(()=>{L.classList.add("done"); setTimeout(()=>L.remove(),800);},180);}},45);
+  const tick=setInterval(()=>{p=Math.min(100,p+(TOUCH?50:Math.ceil(Math.random()*9))); P.textContent=p+"%"; mark.style.setProperty("--p",p+"%"); if(p>=100){clearInterval(tick); setTimeout(()=>{L.classList.add("done"); setTimeout(()=>L.remove(),TOUCH?320:800);},TOUCH?40:180);}},45);
 })();
 
 
@@ -514,6 +514,7 @@ document.addEventListener("click",e=>{const b=e.target.closest(".goal[data-phase
 /* WebGL flight scene */
 scene=(function(){
   const api={}; const canvas=document.getElementById("scene");
+  const init=()=>{
   if(!window.THREE){canvas.hidden=true; return api;}
   let renderer; try{renderer=new THREE.WebGLRenderer({canvas,antialias:!TOUCH,powerPreference:"low-power"});}catch(e){canvas.hidden=true; return api;}
   const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -603,6 +604,9 @@ scene=(function(){
     document.addEventListener("visibilitychange",()=>{running=!document.hidden; if(running){last=performance.now(); requestAnimationFrame(frame);}});
     requestAnimationFrame(frame);
   }
+  api.setView&&api.setView(currentView);
+  };
+  requestAnimationFrame(()=>setTimeout(init,0));
   return api;
 })();
 

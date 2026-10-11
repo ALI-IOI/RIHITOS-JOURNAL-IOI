@@ -1,9 +1,9 @@
 /* =====================================================================
-   RIHITO'S JOURNAL · TEMPLATE DATA
+   RIHITO'S JOURNAL IOI · DATA
    A fictional learner ("IOI") on a 24-month self-study path from
    first circuit to autonomous robots. Replace anything here, or use the
    Console page in the app to edit without touching code.
-   Dates are relative to your start date, so the template never goes stale.
+   Dates are relative to your start date, so the journal never goes stale.
    ===================================================================== */
 
 /* ---------- start date: Console edit > first visit (stored) ---------- */
@@ -29,8 +29,8 @@ const WK=n=>"Wk "+(n+1)+" · "+FMT(W(n)).replace(/, \d{4}$/,"");
 const PROFILE={
   key:KEY,
   name:"IOI", first:"IOI",
-  title:"Rihito's Journal",
-  titleWords:["RIHITO’S","JOURNAL"],
+  title:"Rihito's Journal IOI",
+  titleWords:["RIHITO’S","JOURNAL IOI"],
   code:"RJ24",
   currency:"$",
   start:START, end:MO(24),
@@ -38,7 +38,7 @@ const PROFILE={
 };
 
 const TEXT={
-  brand:"IOI", brandSub:"Rihito's Journal",
+  brand:"IOI", brandSub:"Rihito's Journal IOI",
   coords:"Day one · your city here",
   kicker:"A field log of everything I build, from a first circuit to <span>autonomous robots</span>",
   homeLine:"Every build, gate and test run on the way from a blinking LED to robots that see, map and fly, logged in one place.",
@@ -49,7 +49,7 @@ const TEXT={
   manifesto:"More than tutorials, more than parts, more than a certificate. A public record of robots that work, measured, logged and shared, one gate at a time.",
   applyEyebrow:"After the roadmap · month 20 onward",
   applyLede:"Three ways to turn the portfolio into the next step. Pick one as the main target and keep a second warm. Deadlines differ by country and company, so check each official page when its phase starts.",
-  footer:"Rihito's Journal<br>First circuit → autonomous robot · 24 months",
+  footer:"Rihito's Journal IOI<br>First circuit → autonomous robot · 24 months",
   communityNote:"<b>Want people in person?</b> Look for a university robotics club, an IEEE Robotics and Automation Society student chapter, a local makerspace or a ROS meetup. Student competitions such as FIRST, VEX, RoboCup and F1TENTH welcome volunteers and mentors too.",
   credNote:"<b>Left out on purpose:</b> certificates of completion that only prove you watched videos. Committees and hiring managers weigh projects, code and measured results first. Providers change programmes, so re-check each page before you pay."
 };

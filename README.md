@@ -1,4 +1,4 @@
-# Rihito's Journal — a robotics self-study tracker template
+# Rihito's Journal IOI — a robotics self-study tracker you can copy
 
 A personal learning tracker for anyone teaching themselves robotics, from a first circuit to robots
 that map rooms and fly missions. Plain HTML, CSS and JavaScript: no build step, no server, no account.
@@ -9,7 +9,7 @@ or in one data file.
 
 **New here? Read [INSTRUCTIONS.md](INSTRUCTIONS.md)**: a step-by-step guide from copying the template to syncing your phone.
 
-**Live demo:** https://ali-ioi.github.io/RIHITOS-JOURNAL-TEMPLATE/
+**Live demo:** https://ali-ioi.github.io/RIHITOS-JOURNAL-IOI/
 
 ## What's inside
 
@@ -55,7 +55,7 @@ tools/build.py      bundles everything into dist/journal.html
 The order of topics follows what beginners are repeatedly pointed to in the r/robotics wiki, the
 awesome-robotics list, PythonRobotics, MIT OpenCourseWare and MIT's Visual Navigation course, Northwestern's
 Modern Robotics, and the official ROS 2, Nav2 and PX4 documentation. Every link in `data/journal.js` was
-checked when this template was published; sites move, so report dead links in Issues.
+checked when Rihito's Journal IOI was published; sites move, so report dead links in Issues.
 
 ## Licence
 

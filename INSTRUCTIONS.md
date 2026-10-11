@@ -1,8 +1,8 @@
-# How to use Rihito's Journal
+# How to use Rihito's Journal IOI
 
 A step-by-step guide for making this tracker your own. No coding needed for steps 1–8.
 
-**Live demo:** https://ali-ioi.github.io/RIHITOS-JOURNAL-TEMPLATE/
+**Live demo:** https://ali-ioi.github.io/RIHITOS-JOURNAL-IOI/
 
 ---
 
@@ -140,11 +140,11 @@ press **Forget on this device** when you're done. More detail: [`docs/SYNC.md`](
   *Commit changes*). Every page reads from this one file. A map of what's in it is in
   [`docs/CUSTOMIZE.md`](docs/CUSTOMIZE.md).
 - **Single file:** run `python tools/build.py` to get `dist/journal.html` with everything inside.
-- **Get updates from this template later:** in your copy, run
+- **Get updates from Rihito's Journal IOI later:** in your copy, run
   ```
-  git remote add template https://github.com/ALI-IOI/RIHITOS-JOURNAL-TEMPLATE.git
-  git fetch template
-  git merge template/main --allow-unrelated-histories
+  git remote add ioi https://github.com/ALI-IOI/RIHITOS-JOURNAL-IOI.git
+  git fetch ioi
+  git merge ioi/main --allow-unrelated-histories
   ```
   If `data/journal.js` conflicts, keep your version.
 
